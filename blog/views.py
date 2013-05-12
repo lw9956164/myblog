@@ -91,7 +91,7 @@ def _global_maps():
 @blog.route('/')
 @blog.route('/page/<int:pid>')
 def index(pid=1):
-    per_page = 10
+    per_page = 5
     p = dw.get_article_by_page(pid, per_page)
     articles = p.items
     if not p.total:
