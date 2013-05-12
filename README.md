@@ -5,7 +5,7 @@ weblog
 
 Download
 --------
-    $ git clone https://github.com/ghostrong/weblog.git
+    $ git clone https://github.com/lw9956164/myblog.git
 
 Quick Start
 -----------
